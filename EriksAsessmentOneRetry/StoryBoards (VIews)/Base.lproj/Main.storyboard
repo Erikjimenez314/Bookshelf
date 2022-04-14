@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0nn-99-i8E">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Book Name Detail View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BookNameDetailViewController" customModule="EriksAsessmentOneRetry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Byj-9s-XFO">
+                                <rect key="frame" x="20.5" y="72" width="373" height="806"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n7b-Ip-aRk" colorLabel="IBBuiltInLabel-Blue">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="80.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.24880418313539102" green="0.11719150489438081" blue="0.80792754888534546" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="17" name="MarkerFelt-Wide"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAL-f6-Php">
+                                        <rect key="frame" x="0.0" y="92.5" width="373" height="40.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.23005765041002402" green="0.074200320357663607" blue="0.80792754888534546" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="17" name="MarkerFelt-Thin"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xMC-KP-cNq">
+                                        <rect key="frame" x="0.0" y="145" width="373" height="241.5"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rYR-1G-l6D">
+                                        <rect key="frame" x="0.0" y="398.5" width="373" height="40.5"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.29609582239683091" green="0.12917965277556395" blue="0.80792754888534546" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="17" name="MarkerFelt-Thin"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QDw-DZ-th8">
+                                        <rect key="frame" x="0.0" y="451" width="373" height="355"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Label">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.27228520812755519" green="0.18917136072589763" blue="0.80792754888534546" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <font key="NSFont" size="17" name="MarkerFelt-Thin"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="QDw-DZ-th8" firstAttribute="width" secondItem="Byj-9s-XFO" secondAttribute="width" id="5qe-OO-tJn"/>
+                                    <constraint firstItem="rYR-1G-l6D" firstAttribute="height" secondItem="Byj-9s-XFO" secondAttribute="height" multiplier="0.05" id="8ve-4s-NVb"/>
+                                    <constraint firstItem="dAL-f6-Php" firstAttribute="height" secondItem="Byj-9s-XFO" secondAttribute="height" multiplier="0.05" id="Fol-Jd-xiR"/>
+                                    <constraint firstItem="xMC-KP-cNq" firstAttribute="width" secondItem="Byj-9s-XFO" secondAttribute="width" id="HWL-f3-rCS"/>
+                                    <constraint firstItem="rYR-1G-l6D" firstAttribute="width" secondItem="Byj-9s-XFO" secondAttribute="width" id="OnR-e7-EH2"/>
+                                    <constraint firstItem="dAL-f6-Php" firstAttribute="width" secondItem="Byj-9s-XFO" secondAttribute="width" id="PXs-Ak-6Xq"/>
+                                    <constraint firstItem="xMC-KP-cNq" firstAttribute="height" secondItem="Byj-9s-XFO" secondAttribute="height" multiplier="0.3" id="k58-lR-dwf"/>
+                                    <constraint firstItem="n7b-Ip-aRk" firstAttribute="width" secondItem="Byj-9s-XFO" secondAttribute="width" id="lEh-v0-IxO"/>
+                                    <constraint firstItem="n7b-Ip-aRk" firstAttribute="height" secondItem="Byj-9s-XFO" secondAttribute="height" multiplier="0.1" id="xhz-BF-Q1s"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.94150799512863159" green="0.13345927000045776" blue="0.38440608978271484" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Byj-9s-XFO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.9" id="Jds-pc-qLy"/>
+                            <constraint firstItem="Byj-9s-XFO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gvb-al-hEF"/>
+                            <constraint firstItem="Byj-9s-XFO" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="lZg-Dl-co1"/>
+                            <constraint firstItem="Byj-9s-XFO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="mdc-jM-ohL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RsX-5j-4wV"/>
+                    <connections>
+                        <outlet property="bookAuthorLabel" destination="dAL-f6-Php" id="NUe-3k-KNd"/>
+                        <outlet property="bookBio" destination="QDw-DZ-th8" id="rNa-4W-ijj"/>
+                        <outlet property="bookImageView" destination="xMC-KP-cNq" id="nCm-pI-rFJ"/>
+                        <outlet property="bookReleaseDate" destination="rYR-1G-l6D" id="YeU-QI-Bbi"/>
+                        <outlet property="bookTopLabel" destination="n7b-Ip-aRk" id="9XY-AF-Uzn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="75"/>
+        </scene>
+        <!--My Bookshelf-->
+        <scene sceneID="sd7-Vc-9ch">
+            <objects>
+                <tableViewController id="zlK-WP-kin" customClass="bookNameContentTableViewController" customModule="EriksAsessmentOneRetry" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="C3M-Hm-hno">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.69852060079574585" green="0.84719854593276978" blue="0.93143373727798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexColor" red="0.69852060079574585" green="0.84719854593276978" blue="0.93143373727798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.69852060079574585" green="0.84719854593276978" blue="0.93143373727798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.69852060079574585" green="0.84719854593276978" blue="0.93143373727798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="bookCell" textLabel="Ipg-vM-2sX" detailTextLabel="HMX-Rw-qTy" style="IBUITableViewCellStyleValue1" id="uO3-7E-hgO">
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uO3-7E-hgO" id="vOQ-hY-ilf">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ipg-vM-2sX">
+                                            <rect key="frame" x="20" y="15" width="25" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="tintColor" systemColor="systemBlueColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HMX-Rw-qTy">
+                                            <rect key="frame" x="361" y="15" width="33" height="14.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.69852060079574585" green="0.84719854593276978" blue="0.93143373727798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="tintColor" red="0.69852060079574585" green="0.84719854593276978" blue="0.93143373727798462" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.34891033545966227" green="0.42577259047669741" blue="0.96620899438858032" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.78765525599999997" green="0.2111297476" blue="0.80792754889999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="bookShelfToDetailView" id="osg-4Y-VBq"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="zlK-WP-kin" id="27G-XJ-C4D"/>
+                            <outlet property="delegate" destination="zlK-WP-kin" id="WfP-4m-1oZ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My Bookshelf" id="482-JT-jzt"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6H2-1y-c6W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-725" y="75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="p0s-Vx-tP3">
+            <objects>
+                <navigationController id="0nn-99-i8E" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ITs-pR-fcj">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="zlK-WP-kin" kind="relationship" relationship="rootViewController" id="RAQ-JO-BlC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tlk-pz-GzG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="open cell" textLabel="rcp-bh-HuT" detailTextLabel="pPh-2s-lIW" style="IBUITableViewCellStyleValue1" id="8dl-IQ-2h3">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8dl-IQ-2h3" id="Ei9-pP-vHi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rcp-bh-HuT">
+                                <rect key="frame" x="20" y="15" width="25" height="14.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pPh-2s-lIW">
+                                <rect key="frame" x="361" y="15" width="33" height="14.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </tableViewCellContentView>
+                </tableViewCell>
+            </objects>
+            <point key="canvasLocation" x="-1472" y="75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
